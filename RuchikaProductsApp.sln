@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuchikaProductsApp", "RuchikaProductsApp\RuchikaProductsApp.csproj", "{ACBA0AF8-CC6C-4A22-9134-7C09C77FDDD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApp.nUnitTests", "ProductsApp.nUnitTests\ProductsApp.nUnitTests.csproj", "{FE02B0C5-8268-44F0-9D4E-06E17096A722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ACBA0AF8-CC6C-4A22-9134-7C09C77FDDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACBA0AF8-CC6C-4A22-9134-7C09C77FDDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACBA0AF8-CC6C-4A22-9134-7C09C77FDDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE02B0C5-8268-44F0-9D4E-06E17096A722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE02B0C5-8268-44F0-9D4E-06E17096A722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE02B0C5-8268-44F0-9D4E-06E17096A722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE02B0C5-8268-44F0-9D4E-06E17096A722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
