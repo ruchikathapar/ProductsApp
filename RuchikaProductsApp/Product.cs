@@ -1,6 +1,4 @@
-﻿using System.Text;
-using System.Threading.Tasks;
-
+﻿using System;
 
 namespace RuchikaProductApp
 {
@@ -19,6 +17,9 @@ namespace RuchikaProductApp
                 throw new ArgumentOutOfRangeException(nameof(price), "Price must be between 1 and 5000");
             if (stock < 1 || stock > 100000)
                 throw new ArgumentOutOfRangeException(nameof(stock), "Stock must be between 1 and 100000");
+
+            if (string.IsNullOrWhiteSpace(productName))
+                throw new ArgumentNullException(nameof(productName), "Product name cannot be null or empty");
 
             ProductID = productId;
             ProductName = productName;
